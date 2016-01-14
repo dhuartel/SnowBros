@@ -15,7 +15,6 @@
 #include "ModuleRender.h"
 #include "Graphics.h"
 #include "AudioEffects.h"
-#include <vld.h>
 
 using namespace std;
 
