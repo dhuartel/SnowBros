@@ -10,7 +10,6 @@
 #include "ModulePlayer.h"
 #include "ModuleAudio.h"
 #include "AudioEffects.h"
-#include <vld.h>
 
 
 ModuleEnemy::ModuleEnemy(bool start_enabled) : Module(start_enabled)
