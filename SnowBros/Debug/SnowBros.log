@@ -1,0 +1,224 @@
+﻿Build started 14/01/2016 14:37:15.
+     1>Project "E:\Documentos\GitHub\SnowBros2\SnowBros\SnowBros.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp AudioEffects.cpp Collider.cpp Enemy.cpp Graphics.cpp Log.cpp Main.cpp ModuleAudio.cpp ModuleCollision.cpp ModuleEnemy.cpp ModuleFadeToBlack.cpp ModuleGameOver.cpp ModuleInput.cpp ModuleLevels.cpp ModuleParticle.cpp ModulePlayer.cpp ModuleRender.cpp ModuleStart.cpp ModuleTextures.cpp ModuleWin.cpp ModuleWindow.cpp Particle.cpp
+         Particle.cpp
+         ModuleWindow.cpp
+         ModuleWin.cpp
+         ModuleTextures.cpp
+         ModuleStart.cpp
+         ModuleRender.cpp
+         ModulePlayer.cpp
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(496): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(498): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(506): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(509): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(514): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(517): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(526): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(529): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(534): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(537): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(545): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(548): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(555): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(557): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(564): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(567): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(572): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(575): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(583): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(586): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(593): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(596): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(603): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(613): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(614): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(615): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(616): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(624): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(632): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(810): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(811): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(812): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(813): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(814): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(815): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(816): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(817): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(818): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(819): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(820): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(821): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(824): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(825): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(826): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(827): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(828): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(829): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(830): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(831): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(832): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(833): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(834): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(835): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(838): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(839): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(840): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(841): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(842): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(843): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(844): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(845): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(846): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(847): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(848): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(849): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(852): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(853): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(854): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(855): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(856): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(857): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(858): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(859): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(860): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(861): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(862): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(863): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(876): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(877): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(881): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(882): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleplayer.cpp(875): warning C4101: 'aux' : unreferenced local variable
+         ModuleParticle.cpp
+     1>e:\documentos\github\snowbros2\snowbros\moduleparticle.cpp(25): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleparticle.cpp(26): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleparticle.cpp(137): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleparticle.cpp(143): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleparticle.cpp(144): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ModuleLevels.cpp
+         ModuleInput.cpp
+         ModuleGameOver.cpp
+         ModuleFadeToBlack.cpp
+         ModuleEnemy.cpp
+     1>e:\documentos\github\snowbros2\snowbros\moduleenemy.cpp(89): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\moduleenemy.cpp(102): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         ModuleCollision.cpp
+     1>e:\documentos\github\snowbros2\snowbros\modulecollision.cpp(448): warning C4800: 'SDL_bool' : forcing value to bool 'true' or 'false' (performance warning)
+         ModuleAudio.cpp
+         Main.cpp
+         Log.cpp
+         Graphics.cpp
+         Enemy.cpp
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(84): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(396): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(397): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(400): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(401): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(406): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(409): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(414): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(417): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(422): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(425): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(430): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(433): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(438): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(441): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(448): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(451): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(458): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(461): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(468): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(471): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(477): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(482): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(488): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(491): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(494): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(507): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(508): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(509): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(510): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(511): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(512): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(513): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(514): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(515): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(516): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(517): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(518): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(521): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(522): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(523): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(524): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(525): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(526): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(527): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(528): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(529): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(530): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(531): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(532): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(535): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(536): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(537): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(538): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(539): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(540): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(541): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(542): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(543): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(544): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(545): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(546): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(549): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(550): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(551): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(552): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(553): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(554): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(555): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(556): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(557): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(558): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(559): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\documentos\github\snowbros2\snowbros\enemy.cpp(560): warning C4244: 'argument' : conversion from 'const float' to 'int', possible loss of data
+         Collider.cpp
+         Generating Code...
+     1>e:\documentos\github\snowbros2\snowbros\moduleenemy.cpp(503): warning C4715: 'ModuleEnemy::ReturnOwner' : not all control paths return a value
+         Compiling...
+         AudioEffects.cpp
+         Application.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Documentos\GitHub\SnowBros2\SnowBros\Debug\SnowBros.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Documentos\GitHub\SnowBros2\SnowBros\Debug\SnowBros.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Documentos\GitHub\SnowBros2\SnowBros\Debug\SnowBros.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\AudioEffects.obj
+         Debug\Collider.obj
+         Debug\Enemy.obj
+         Debug\Graphics.obj
+         Debug\Log.obj
+         Debug\Main.obj
+         Debug\ModuleAudio.obj
+         Debug\ModuleCollision.obj
+         Debug\ModuleEnemy.obj
+         Debug\ModuleFadeToBlack.obj
+         Debug\ModuleGameOver.obj
+         Debug\ModuleInput.obj
+         Debug\ModuleLevels.obj
+         Debug\ModuleParticle.obj
+         Debug\ModulePlayer.obj
+         Debug\ModuleRender.obj
+         Debug\ModuleStart.obj
+         Debug\ModuleTextures.obj
+         Debug\ModuleWin.obj
+         Debug\ModuleWindow.obj
+         Debug\Particle.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         SnowBros.vcxproj -> E:\Documentos\GitHub\SnowBros2\SnowBros\Debug\SnowBros.exe
+     1>Done Building Project "E:\Documentos\GitHub\SnowBros2\SnowBros\SnowBros.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.59
