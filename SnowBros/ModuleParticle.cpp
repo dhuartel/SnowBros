@@ -9,7 +9,6 @@
 #include "ModuleCollision.h"
 #include "Collider.h"
 #include "Graphics.h"
-#include <vld.h>
 
 
 ModuleParticle::ModuleParticle(){
