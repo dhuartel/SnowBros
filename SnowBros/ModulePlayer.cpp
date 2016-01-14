@@ -15,7 +15,6 @@
 #include "ModuleAudio.h"
 #include "AudioEffects.h"
 #include "SDL/include/SDL.h"
-#include <vld.h>
 
 ModulePlayer::ModulePlayer(bool start_enabled) : Module(start_enabled)
 {
