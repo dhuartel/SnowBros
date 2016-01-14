@@ -4,7 +4,7 @@
 #include "SDL/include/SDL_rect.h"
 #include "Point.h"
 #include "Animation.h"
-#include <vld.h>
+//#include <vld.h>
 struct SDL_Texture;
 
 #define LOG(format, ...) log(__FILE__, __LINE__, format, __VA_ARGS__);
