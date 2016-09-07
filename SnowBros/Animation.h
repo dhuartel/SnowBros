@@ -36,6 +36,10 @@ public:
 		return loops == 0;
 	}
 
+	bool shootMoment(){
+		return SDL_RectEquals(&GetCurrentFrame(), &(frames[3]));
+	}
+
 	SDL_Rect& GetFrame(int frame){
 		return frames[frame];
 	}

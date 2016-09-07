@@ -39,6 +39,7 @@ public://Variables
 
 	bool lookingLeft = true;
 	bool turn = true;
+	bool shot = false;
 	int jumpCommited;
 	float movementSpeed = 2.2f;
 	bool snowHit;//true if it has been hit by playershot
@@ -48,8 +49,8 @@ public://Variables
 
 private://Variables
 	Uint32 hitTime;//moment it has been hit
-	int hitCounter=0;//Number of hits since it got into the current status
-	
+	int hitCounter = 0;//Number of hits since it got into the current status
+
 	//This is the distance from the starting point at the moment
 	float relativePositionsDestroying = 0;
 	//There are 4 posible positions for the sprites of the destruction

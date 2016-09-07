@@ -26,6 +26,14 @@
 *.out
 *.app
 
+#Debug and Release
+Debug/
+Release/
+
+#Problematic files
+*.sdf
+*.opensdf
+
 # =========================
 # Operating System Files
 # =========================

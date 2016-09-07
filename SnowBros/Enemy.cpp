@@ -16,6 +16,9 @@ Enemy::Enemy(int number)
 	enemyTurnLeft.frames.push_back({ 201, 138, 52, 50 });
 	enemyTurnLeft.frames.push_back({ 12, 8, 47, 50 });
 	enemyTurnLeft.frames.push_back({ 81, 6, 32, 52 });
+	enemyTurnLeft.frames.push_back({ 81, 6, 32, 52 });
+	enemyTurnLeft.frames.push_back({ 81, 6, 32, 52 });
+	enemyTurnLeft.frames.push_back({ 148, 8, 34, 50 });
 	enemyTurnLeft.frames.push_back({ 148, 8, 34, 50 });
 	enemyTurnLeft.speed = 0.05f;
 
@@ -23,6 +26,9 @@ Enemy::Enemy(int number)
 	enemyTurnRight.frames.push_back({ 201, 138, 52, 50 });
 	enemyTurnRight.frames.push_back({ 202, 399, 47, 50 });
 	enemyTurnRight.frames.push_back({ 148, 397, 32, 52 });
+	enemyTurnRight.frames.push_back({ 148, 397, 32, 52 });
+	enemyTurnRight.frames.push_back({ 148, 397, 32, 52 });
+	enemyTurnRight.frames.push_back({ 79, 399, 34, 50 });
 	enemyTurnRight.frames.push_back({ 79, 399, 34, 50 });
 	enemyTurnRight.speed = 0.05f;
 
@@ -131,24 +137,24 @@ update_status Enemy::PreUpdate(){
 			}
 		}
 		switch (hitCounter){
-			case 1:
-			case 2:
-				status = SNOW1;
-				myCollider->type = ENEMY;
-				break;
-			case 3:
-			case 4:
-				status = SNOW2;
-				myCollider->type = ENEMY;
-				break;
-			case 5:
-				status = SNOW3;
-				myCollider->type = ENEMY;
-				break;
-			case 6:
-				status = SNOW4;
-				myCollider->type = SNOWBALL;
-				break;
+		case 1:
+		case 2:
+			status = SNOW1;
+			myCollider->type = ENEMY;
+			break;
+		case 3:
+		case 4:
+			status = SNOW2;
+			myCollider->type = ENEMY;
+			break;
+		case 5:
+			status = SNOW3;
+			myCollider->type = ENEMY;
+			break;
+		case 6:
+			status = SNOW4;
+			myCollider->type = SNOWBALL;
+			break;
 		}
 		break;
 	}
@@ -157,9 +163,9 @@ update_status Enemy::PreUpdate(){
 	{
 	case NONE:
 		/*if (snowHit){
-			status = SNOW1;
-			hitCounter = 0;
-			hitTime = SDL_GetTicks();
+		status = SNOW1;
+		hitCounter = 0;
+		hitTime = SDL_GetTicks();
 		}
 		else*/ if (!myFeetCollider->colliding){
 			status = FALLING;
@@ -185,9 +191,9 @@ update_status Enemy::PreUpdate(){
 			position.y += 2;
 		}
 		/*if (snowHit){
-			status = SNOW1;
-			hitCounter = 0;
-			hitTime = SDL_GetTicks();
+		status = SNOW1;
+		hitCounter = 0;
+		hitTime = SDL_GetTicks();
 		}*/
 		break;
 	case FALLING:
@@ -198,18 +204,18 @@ update_status Enemy::PreUpdate(){
 			position.y += 2;
 		}
 		/*if (snowHit){
-			status = SNOW1;
-			hitCounter = 0;
-			hitTime = SDL_GetTicks();
+		status = SNOW1;
+		hitCounter = 0;
+		hitTime = SDL_GetTicks();
 		}*/
 		break;
 	case LANDING:
 		jumpCommited = 0;
 		turn = true;
 		/*if (snowHit){
-			status = SNOW1;
-			hitCounter = 0;
-			hitTime = SDL_GetTicks();
+		status = SNOW1;
+		hitCounter = 0;
+		hitTime = SDL_GetTicks();
 		}
 		else*/{
 			if (lookingLeft){
@@ -228,38 +234,48 @@ update_status Enemy::PreUpdate(){
 		break;
 	case SHOOTING:
 		/*if (snowHit){
-			status = SNOW1;
-			hitCounter = 0;
-			hitTime = SDL_GetTicks();
+		status = SNOW1;
+		hitCounter = 0;
+		hitTime = SDL_GetTicks();
 		}
 		else*/{
-			if (lookingLeft){				
-				if (enemyTurnLeft.hasFinished()){
+			if (lookingLeft){
+				if (enemyTurnLeft.shootMoment() && !shot){
 					shoot(1);
+				}
+				if (enemyTurnLeft.hasFinished()){
+					enemyTurnLeft.reset();
+					shot = false;
+					status = NONE;
 				}
 			}
 			else{
-				if (enemyTurnRight.hasFinished()){
+				if (enemyTurnRight.shootMoment() && !shot){
 					shoot(2);
 				}
+				if (enemyTurnRight.hasFinished()){
+					enemyTurnRight.reset();
+					shot = false;
+					status = NONE;
+				}
 			}
-		}
-		break;
+	}
+				 break;
 	case SNOW1:
 		/*if (snowHit){
-			hitTime = SDL_GetTicks();
-			snowHit = false;
-			hitCounter++;
-			if (hitCounter == 5){
-				status = SNOW2;
-				hitCounter = 0;
-			}
+		hitTime = SDL_GetTicks();
+		snowHit = false;
+		hitCounter++;
+		if (hitCounter == 5){
+		status = SNOW2;
+		hitCounter = 0;
+		}
 		}
 		else{
-			if (SDL_GetTicks() > hitTime + 4000){
-				status = NONE;
-				hitTime = SDL_GetTicks();
-			}
+		if (SDL_GetTicks() > hitTime + 4000){
+		status = NONE;
+		hitTime = SDL_GetTicks();
+		}
 		}*/
 		if (!myFeetCollider->colliding){
 			position.y += 2;
@@ -267,19 +283,19 @@ update_status Enemy::PreUpdate(){
 		break;
 	case SNOW2:
 		/*if (snowHit){
-			hitTime = SDL_GetTicks();
-			snowHit = false;
-			hitCounter++;
-			if (hitCounter == 5){
-				status = SNOW3;
-				hitCounter = 0;
-			}
+		hitTime = SDL_GetTicks();
+		snowHit = false;
+		hitCounter++;
+		if (hitCounter == 5){
+		status = SNOW3;
+		hitCounter = 0;
+		}
 		}
 		else{
-			if (SDL_GetTicks() > hitTime + 4000){
-				status = SNOW1;
-				hitTime = SDL_GetTicks();
-			}
+		if (SDL_GetTicks() > hitTime + 4000){
+		status = SNOW1;
+		hitTime = SDL_GetTicks();
+		}
 		}*/
 		if (!myFeetCollider->colliding){
 			position.y += 2;
@@ -287,20 +303,20 @@ update_status Enemy::PreUpdate(){
 		break;
 	case SNOW3:
 		/*if (snowHit){
-			hitTime = SDL_GetTicks();
-			snowHit = false;
-			hitCounter++;
-			if (hitCounter == 5){
-				status = SNOW4;
-				myCollider->type = SNOWBALL;
-				hitCounter = 0;
-			}
+		hitTime = SDL_GetTicks();
+		snowHit = false;
+		hitCounter++;
+		if (hitCounter == 5){
+		status = SNOW4;
+		myCollider->type = SNOWBALL;
+		hitCounter = 0;
+		}
 		}
 		else{
-			if (SDL_GetTicks() > hitTime + 4000){
-				status = SNOW2;
-				hitTime = SDL_GetTicks();
-			}
+		if (SDL_GetTicks() > hitTime + 4000){
+		status = SNOW2;
+		hitTime = SDL_GetTicks();
+		}
 		}*/
 		if (!myFeetCollider->colliding){
 			position.y += 2;
@@ -308,13 +324,13 @@ update_status Enemy::PreUpdate(){
 		break;
 	case SNOW4:
 		/*if (snowHit){
-			hitTime = SDL_GetTicks();
-			snowHit = false;
+		hitTime = SDL_GetTicks();
+		snowHit = false;
 		}
 		else if (SDL_GetTicks() > hitTime + 8000){
-			status = SNOW3;
-			myCollider->type = ENEMY;
-			hitTime = SDL_GetTicks();
+		status = SNOW3;
+		myCollider->type = ENEMY;
+		hitTime = SDL_GetTicks();
 		}*/
 		if (!myFeetCollider->colliding){
 			position.y += 2;
@@ -435,10 +451,10 @@ update_status Enemy::Update(){
 		break;
 	case SHOOTING:
 		if (lookingLeft){
-			App->renderer->Blit(App->graphics->enemyGraphics, position.x, position.y - enemyTurnLeft.GetCurrentFrame().h, &enemyTurnLeft.GetCurrentFrame()); 
+			App->renderer->Blit(App->graphics->enemyGraphics, position.x, position.y - enemyTurnLeft.GetCurrentFrame().h, &enemyTurnLeft.GetCurrentFrame());
 		}
 		else{
-			App->renderer->Blit(App->graphics->enemyGraphics, position.x, position.y - enemyTurnRight.GetCurrentFrame().h, &enemyTurnRight.GetCurrentFrame()); 
+			App->renderer->Blit(App->graphics->enemyGraphics, position.x, position.y - enemyTurnRight.GetCurrentFrame().h, &enemyTurnRight.GetCurrentFrame());
 		}
 		break;
 	case SNOW1:
@@ -572,12 +588,11 @@ void Enemy::shoot(int direction){
 		aux.speed.y = 0;
 		aux.position.x = position.x - 10;
 		aux.anim = App->graphics->enemyShotLeft;
-		aux.speed.x = -3;
+		aux.speed.x = -3.5f;
 		aux.acceleration.x = 0;
 		aux.acceleration.y = 0;
 		App->particles->CreateParticle(aux, 2);
-		enemyTurnLeft.reset();
-		status = NONE;
+		shot = true;
 		break;
 	case 2://RIGHT
 		aux.position.y = position.y - 13;
@@ -585,12 +600,11 @@ void Enemy::shoot(int direction){
 		aux.tex = App->graphics->enemyGraphics;
 		aux.position.x = position.x + 25;
 		aux.anim = App->graphics->enemyShotRight;
-		aux.speed.x = 3;
+		aux.speed.x = 3.5f;
 		aux.acceleration.x = 0;
 		aux.acceleration.y = 0;
 		App->particles->CreateParticle(aux, 3);
-		enemyTurnRight.reset();
-		status = NONE;
+		shot = true;
 		break;
 	}
 }
